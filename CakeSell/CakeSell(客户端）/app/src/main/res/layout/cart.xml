@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--购物车页面-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物车"
+        android:textStyle="bold"
+        android:textSize="45sp"/>
+
+    <ListView
+        android:id="@+id/cartView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存当前购物车内容" />
+
+    <TextView
+        android:id="@+id/Total_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总价："
+        android:textStyle="bold"
+        android:textSize="45sp"/>
+
+</LinearLayout>
